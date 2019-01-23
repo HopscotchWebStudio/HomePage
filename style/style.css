@@ -56,11 +56,23 @@ h2{
 	  color: white;
   }
 
-  .separatorFooter{
+  .footerSeparator{
 	  margin: auto;
 	  width: 75%;
 	  height: 2px;
 	  background-color: gray;
 	  margin-top: 15px;
 	  margin-bottom: 15px;
+  }
+
+  .footerShape {
+	/*background-image: url("./img/footerShape.png"); */
+	height              : 48px;
+	width               : 48px;
+  }
+
+  .footerRectangle {
+	background-image: url("./img/footerLongShape.png");
+	height              : 15px;
+	width               : 770px;
   }
